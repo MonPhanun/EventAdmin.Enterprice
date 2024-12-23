@@ -1,0 +1,33 @@
+﻿
+<div class="container w-100 pt-5 pb-5">
+    <div class="w-100 row   d-flex flex-column justify-content-center d-flex align-items-center fs-2">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-10">
+            <div class="header-name d-flex justify-content-start d-flex align-items-center p-1">
+                <div class="form-check text-colors fs-5 p-0 head">
+                   Request Quote List
+                </div>
+                <!--<button class="btn btnAdd text-white ms-2 pe-4 ps-4 addColor"><i class="bi bi-plus-lg"></i></button>-->
+            </div>
+  
+            <div class="mt-5">
+            <colorform-component ></colorform-component>
+             </div>
+
+        </div>
+    </div>
+</div>
+
+<div *ngIf="confirmDelete" class="alert-bg position-absolute d-flex justify-content-center align-items-center top-0 w-100 h-100">
+    <div class="w-25 bg-white rounded-4">
+        <div class="fs-4 text-center alert alert-warning">
+            Confirmation
+        </div>
+        <div class="fs-6 text-center p-3">
+            Are you want to delete ?
+        </div>
+        <div class="fs-6 text-center p-3">
+            <button class="btn btn-primary m-2 pe-4 ps-4 btn-delete" >Ok</button>
+            <button class="btn btn-danger m-2 me-3 pe-4 ps-4 btn-cancel">Cancel</button>
+        </div>
+    </div>
+</div>

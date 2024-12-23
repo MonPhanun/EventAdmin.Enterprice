@@ -1,0 +1,315 @@
+﻿
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    text-decoration:none;
+}
+
+.error {
+    visibility: visible !important;
+    color: red;
+}
+
+.no-error {
+    visibility: hidden !important;
+}
+
+.err-input {
+    border-color: red !important;
+    box-shadow: none !important;
+}
+
+.err-input:focus {
+    box-shadow: 0px 0px 5px 0px red !important;
+}
+
+/*Sidebar block*/
+.sidebar {
+    width: 16vw;
+    height: 100vh;
+    background: #d5dcef9a;
+    transition: 0.25s ease-in-out;
+    -webkit-box-shadow: 2px 0px 3px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 0px 3px -3px rgba(0,0,0,0.75);
+    box-shadow: 2px 0px 3px -3px rgba(0,0,0,0.75);
+    z-index: 2;
+}
+
+.header-content {
+    width: 84vw;
+    height: 100vh;
+    background: white;
+    transition: 0.25s ease-in-out;
+    z-index: 1;
+}
+
+.logo {
+    background-color: #B4C6F6;
+    color:white;
+}
+
+.logo-p{
+    padding-top:5px;
+}
+
+.text-color {
+    color: #505a75;
+    font-size:14px !important;
+}
+
+.menu-hover:hover{
+    background-color:ghostwhite !important;
+    cursor:pointer;
+}
+
+.text-colors {
+    color: #505a75;
+}
+
+.active {
+    background-color: ghostwhite !important;
+}
+.sub-item {
+    background-color: white;
+    transition: 0.40s ease-in-out;
+    height: 0px;
+    overflow: hidden;
+}
+
+.trans {
+    transition: 0.30s ease-in-out !important;
+    height: 100vh;
+}
+
+.tranh {
+    transition: 0.30s ease-in-out !important;
+}
+
+.bi-chevron-down {
+    transition: 0.30s ease-in-out !important;
+}
+.icon-down {
+    transform: rotate(-90deg);
+    transition: 0.30s ease-in-out;
+}
+
+.colaps-item{
+    height:165px !important;
+    overflow :hidden !important;
+}
+/*End Sidebar block*/
+
+/*header block*/
+
+.h-icon {
+    color: #747F9C !important;
+}
+
+.header {
+    -webkit-box-shadow: 0px 2px 3px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 3px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 3px -3px rgba(0,0,0,0.75);
+}
+
+.images{
+    width:35px;
+    height:35px;
+    object-fit:cover;
+    border-radius:50%;
+}
+/*End header block*/
+
+/*Setlup name block*/
+.btnAdd {
+    background-color: #B4C6F6 !important;
+}
+
+.btnCancel {
+    background-color: #fc3333d7 !important;
+}
+
+.text-colors {
+    color: #747F9C !important;
+}
+
+.header-name {
+    -webkit-box-shadow: 0px 2px 2px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 2px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 2px -3px rgba(0,0,0,0.75);
+}
+
+.table-herder {
+    color: #505a75 !important;
+}
+
+/*End Setlup name block*/
+
+/*Setlup product block*/
+.text-item{
+    height:200px !important;
+}
+
+.btn-delete-color {
+    background-color: #fc3333ca;
+}
+
+.del-img {
+    top: 0px;
+    right: 0px;
+    display: flex;
+    background-color: palevioletred;
+    z-index: 1;
+}
+.imgs{
+    z-index:0;
+}
+
+.btn-delimg {
+    font-size: 15px;
+    border: none;
+}
+
+.img-content{
+    width:200px;
+    height:200px;
+}
+
+.sidebar-colape {
+    width: 0vw !important;
+}
+
+.header-expeded {
+    width: 100vw !important;
+}
+
+.content-table{
+    overflow:scroll !important;
+}
+
+.noti-red{
+    top:7px;
+    left:85%;
+}
+
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+}
+
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 769.98px) {
+
+    .sidebar {
+        width: 25vw !important;
+    }
+
+    .header-content {
+        width: 75vw !important;
+        overflow:hidden !important;
+    }
+
+    .menu{
+        padding-left:10px !important;
+    }
+
+    .logo {
+        padding-left: 10px !important;
+    }
+
+    .logo-p {
+        font-size:15px !important;
+    }
+
+    .logo-S {
+        font-size: 30px !important;
+    }
+
+    .logo-text {
+        font-size: 12px !important;
+        padding:14px 10px !important;
+    }
+
+    .logo-sm {
+        display:none !important;
+    }
+
+    .sub-menu {
+        padding-left: 35px !important;
+
+    }
+
+    .dsc-text {
+        font-size: 16px !important;
+    }
+ }
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    /*Sidebar block*/
+    .sidebar {
+        width: 20vw;
+    }
+
+    .header-content {
+        width: 80vw;
+    }
+
+    .dsc-text{
+        font-size:20px ;
+    }
+
+    .sub-menu {
+        padding-left: 35px !important;
+    }
+}
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    /*Sidebar block*/
+    .sidebar {
+        width: 20vw;
+    }
+
+    .header-content {
+        width: 80vw;
+    }
+
+    .logo-text {
+        font-size: 15px !important;
+        padding: 15px 10px !important;
+    }
+
+    .sub-menu{
+        padding-left:40px;
+    }
+
+    .logo-p {
+        font-size: 16px !important;
+    }
+
+    .logo-S {
+        font-size: 32px !important;
+    }
+
+    .input-value{
+        font-size:18px !important;
+    }
+
+}
+
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+    .logo-text {
+        font-size: 17px !important;
+    }
+}
+
+@media print {
+    .d-none-print {
+        display: none !important;
+    }
+
+    .d-width-print{
+        width:100vw !important;
+    }
+}

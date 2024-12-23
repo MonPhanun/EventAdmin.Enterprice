@@ -1,0 +1,140 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="scripts\admin\**" />
+    <Content Remove="scripts\admin\**" />
+    <EmbeddedResource Remove="scripts\admin\**" />
+    <None Remove="scripts\admin\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.13" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\main.css.map" />
+    <None Include="wwwroot\fonts\fa-brands-400.svg" />
+    <None Include="wwwroot\fonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\fonts\fa-duotone-900.svg" />
+    <None Include="wwwroot\fonts\fa-duotone-900.woff2" />
+    <None Include="wwwroot\fonts\fa-light-300.svg" />
+    <None Include="wwwroot\fonts\fa-light-300.woff2" />
+    <None Include="wwwroot\fonts\fa-regular-400.svg" />
+    <None Include="wwwroot\fonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\fonts\fa-solid-900.svg" />
+    <None Include="wwwroot\fonts\fa-solid-900.woff2" />
+    <None Include="wwwroot\fonts\icon-dukamarket.svg" />
+    <None Include="wwwroot\js\ajax-form.js" />
+    <None Include="wwwroot\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\js\bup.js" />
+    <None Include="wwwroot\js\countdown.js" />
+    <None Include="wwwroot\js\counterup.js" />
+    <None Include="wwwroot\js\imagesloaded-pkgd.js" />
+    <None Include="wwwroot\js\isotope-pkgd.js" />
+    <None Include="wwwroot\js\jquery-ui.js" />
+    <None Include="wwwroot\js\jquery.js" />
+    <None Include="wwwroot\js\magnific-popup.js" />
+    <None Include="wwwroot\js\main.js" />
+    <None Include="wwwroot\js\meanmenu.js" />
+    <None Include="wwwroot\js\nice-select.js" />
+    <None Include="wwwroot\js\parallax-effect.min.js" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\js\slick.js" />
+    <None Include="wwwroot\js\swiper-bundle.js" />
+    <None Include="wwwroot\js\waypoints.js" />
+    <None Include="wwwroot\js\wow.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+    <None Include="wwwroot\scss\components\_accordion.scss" />
+    <None Include="wwwroot\scss\components\_animation.scss" />
+    <None Include="wwwroot\scss\components\_background.scss" />
+    <None Include="wwwroot\scss\components\_breadcrumb.scss" />
+    <None Include="wwwroot\scss\components\_buttons.scss" />
+    <None Include="wwwroot\scss\components\_carousel.scss" />
+    <None Include="wwwroot\scss\components\_modal.scss" />
+    <None Include="wwwroot\scss\components\_offcanvas.scss" />
+    <None Include="wwwroot\scss\components\_preloader.scss" />
+    <None Include="wwwroot\scss\components\_section-title.scss" />
+    <None Include="wwwroot\scss\components\_spacing.scss" />
+    <None Include="wwwroot\scss\components\_tab.scss" />
+    <None Include="wwwroot\scss\components\_theme.scss" />
+    <None Include="wwwroot\scss\layout\login.scss" />
+    <None Include="wwwroot\scss\layout\_about.scss" />
+    <None Include="wwwroot\scss\layout\_banner.scss" />
+    <None Include="wwwroot\scss\layout\_blog.scss" />
+    <None Include="wwwroot\scss\layout\_brandproduct.scss" />
+    <None Include="wwwroot\scss\layout\_cart.scss" />
+    <None Include="wwwroot\scss\layout\_category.scss" />
+    <None Include="wwwroot\scss\layout\_choose.scss" />
+    <None Include="wwwroot\scss\layout\_coming-soon.scss" />
+    <None Include="wwwroot\scss\layout\_contact.scss" />
+    <None Include="wwwroot\scss\layout\_coundown.scss" />
+    <None Include="wwwroot\scss\layout\_effect.scss" />
+    <None Include="wwwroot\scss\layout\_faq.scss" />
+    <None Include="wwwroot\scss\layout\_feature.scss" />
+    <None Include="wwwroot\scss\layout\_footer.scss" />
+    <None Include="wwwroot\scss\layout\_header.scss" />
+    <None Include="wwwroot\scss\layout\_meanmenu.scss" />
+    <None Include="wwwroot\scss\layout\_portfolio.scss" />
+    <None Include="wwwroot\scss\layout\_product-details.scss" />
+    <None Include="wwwroot\scss\layout\_product.scss" />
+    <None Include="wwwroot\scss\layout\_services.scss" />
+    <None Include="wwwroot\scss\layout\_shop-location.scss" />
+    <None Include="wwwroot\scss\layout\_shop.scss" />
+    <None Include="wwwroot\scss\layout\_slider.scss" />
+    <None Include="wwwroot\scss\layout\_team.scss" />
+    <None Include="wwwroot\scss\layout\_testimonial.scss" />
+    <None Include="wwwroot\scss\main.scss" />
+    <None Include="wwwroot\scss\utils\_breakpoints.scss" />
+    <None Include="wwwroot\scss\utils\_colors.scss" />
+    <None Include="wwwroot\scss\utils\_index.scss" />
+    <None Include="wwwroot\scss\utils\_mixins.scss" />
+    <None Include="wwwroot\scss\utils\_root.scss" />
+    <None Include="wwwroot\scss\utils\_typography.scss" />
+  </ItemGroup>
+
+</Project>
